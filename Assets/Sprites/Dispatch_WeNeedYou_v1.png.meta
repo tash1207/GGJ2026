@@ -1,13 +1,40 @@
 fileFormatVersion: 2
-guid: 38e884b9f7847c44ca6be755eec038c9
+guid: d3aff8b02f7668d49800cfee44d070f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4789058681536175881
-    second: Dispatch_Dispatcher_v1_0
+      213: -4126936144218907196
+    second: Dispatch_WeNeedYou_v1_0
   - first:
-      213: -879168680738544719
-    second: Dispatch_Dispatcher_v1_1
+      213: -4379338031377593545
+    second: Dispatch_WeNeedYou_v1_1
+  - first:
+      213: 7281251715522549104
+    second: Dispatch_WeNeedYou_v1_2
+  - first:
+      213: 8498429640175974827
+    second: Dispatch_WeNeedYou_v1_3
+  - first:
+      213: 839710652831030122
+    second: Dispatch_WeNeedYou_v1_4
+  - first:
+      213: -3375639772407229059
+    second: Dispatch_WeNeedYou_v1_5
+  - first:
+      213: 6199717206713724670
+    second: Dispatch_WeNeedYou_v1_6
+  - first:
+      213: 3196303371168754802
+    second: Dispatch_WeNeedYou_v1_7
+  - first:
+      213: -6038684773606384233
+    second: Dispatch_WeNeedYou_v1_8
+  - first:
+      213: -761231628699001152
+    second: Dispatch_WeNeedYou_v1_9
+  - first:
+      213: 2367414580296543475
+    second: Dispatch_WeNeedYou_v1_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -55,7 +82,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 725, z: 404, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -155,13 +182,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dispatch_Dispatcher_v1_0
+      name: Dispatch_WeNeedYou_v1_9
       rect:
         serializedVersion: 2
-        x: 22
-        y: 52
-        width: 646
-        height: 463
+        x: 249
+        y: 775
+        width: 1006
+        height: 298
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,30 +197,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f0298ea088d98db0800000000000000
-      internalID: -4789058681536175881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dispatch_Dispatcher_v1_1
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 224
-        width: 78
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b32eee2eb09cc3f0800000000000000
-      internalID: -879168680738544719
+      spriteID: 0ce9a9beddf8f65f0800000000000000
+      internalID: -761231628699001152
       vertices: []
       indices: 
       edges: []
@@ -202,20 +207,27 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fd58a305d44b8984596a923812e92fd1
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Dispatch_Dispatcher_v1_0: -4789058681536175881
-      Dispatch_Dispatcher_v1_1: -879168680738544719
+      Dispatch_WeNeedYou_v1_0: -4126936144218907196
+      Dispatch_WeNeedYou_v1_1: -4379338031377593545
+      Dispatch_WeNeedYou_v1_10: 2367414580296543475
+      Dispatch_WeNeedYou_v1_2: 7281251715522549104
+      Dispatch_WeNeedYou_v1_3: 8498429640175974827
+      Dispatch_WeNeedYou_v1_4: 839710652831030122
+      Dispatch_WeNeedYou_v1_5: -3375639772407229059
+      Dispatch_WeNeedYou_v1_6: 6199717206713724670
+      Dispatch_WeNeedYou_v1_7: 3196303371168754802
+      Dispatch_WeNeedYou_v1_8: -6038684773606384233
+      Dispatch_WeNeedYou_v1_9: -761231628699001152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
