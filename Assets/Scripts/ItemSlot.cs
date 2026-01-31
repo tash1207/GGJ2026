@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using TMPro;
 
 public class ItemSlot : MonoBehaviour, IPointerClickHandler
 {
@@ -11,6 +12,9 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public GameObject selectedShader;
     public bool thisItemSelected = false;
+
+    [SerializeField] TMP_Text itemNameText;
+    [SerializeField] TMP_Text itemDescriptionText;
 
     [SerializeField] EquippedSlot headSlot, bodySlot, weaponSlot;
 
@@ -31,7 +35,14 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
         selectedShader.SetActive(true);
         thisItemSelected = true;
 
+        UpdateSelectedItem();
         EquipGear();
+    }
+
+    private void UpdateSelectedItem()
+    {
+        itemNameText.text = itemName;
+        itemDescriptionText.text = itemDescription;
     }
 
     private void EquipGear()
