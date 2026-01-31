@@ -31,7 +31,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
-        inventoryManager.DeselectAllSlots();
+        DeselectSlots();
         selectedShader.SetActive(true);
         thisItemSelected = true;
 
@@ -43,6 +43,22 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     {
         itemNameText.text = itemName;
         itemDescriptionText.text = itemDescription;
+    }
+
+    private void DeselectSlots()
+    {
+        if (itemType == InventoryManager.ItemType.head)
+        {
+            inventoryManager.DeselectHatSlots();
+        }
+        if (itemType == InventoryManager.ItemType.body)
+        {
+            inventoryManager.DeselectShirtSlots();
+        }
+        if (itemType == InventoryManager.ItemType.weapon)
+        {
+            inventoryManager.DeselectWeaponSlots();
+        }
     }
 
     private void EquipGear()

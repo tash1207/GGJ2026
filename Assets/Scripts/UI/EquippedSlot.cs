@@ -11,8 +11,6 @@ public class EquippedSlot : MonoBehaviour
     private string itemName;
     private string itemDescription;
 
-    private bool slotInUse;
-
     public void EquipGear(Sprite itemSprite, string itemName, string itemDescription)
     {
         // Update Image
@@ -22,8 +20,6 @@ public class EquippedSlot : MonoBehaviour
         // Update Data
         this.itemName = itemName;
         this.itemDescription = itemDescription;
-
-        slotInUse = true;
     }
 
 }
