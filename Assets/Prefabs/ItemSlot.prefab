@@ -171,6 +171,8 @@ MonoBehaviour:
   itemType: 1
   selectedShader: {fileID: 4280389927250652855}
   thisItemSelected: 0
+  itemNameText: {fileID: 0}
+  itemDescriptionText: {fileID: 0}
   headSlot: {fileID: 0}
   bodySlot: {fileID: 0}
   weaponSlot: {fileID: 0}
@@ -239,8 +241,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 8632033531916647356, guid: cdaf0cde28cef443e9f717c938949c14, type: 3}
+  m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
