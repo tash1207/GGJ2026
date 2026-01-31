@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 469301dd52100664aafc735c25961d11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5732325094773982282
+    second: Dispatch_Emphasis_v1_0
+  - first:
+      213: 5168479457783129362
+    second: Dispatch_Emphasis_v1_1
+  - first:
+      213: 7798569825979995927
+    second: Dispatch_Emphasis_v1_2
+  - first:
+      213: 8551097228315390954
+    second: Dispatch_Emphasis_v1_3
+  - first:
+      213: 4595334142132361705
+    second: Dispatch_Emphasis_v1_4
+  - first:
+      213: -1239890333297793769
+    second: Dispatch_Emphasis_v1_5
+  - first:
+      213: -2828337739306641110
+    second: Dispatch_Emphasis_v1_6
+  - first:
+      213: -4771483407851233398
+    second: Dispatch_Emphasis_v1_7
+  - first:
+      213: 5668320145894889144
+    second: Dispatch_Emphasis_v1_8
+  - first:
+      213: -5589308612153289324
+    second: Dispatch_Emphasis_v1_9
+  - first:
+      213: 7055274087325120407
+    second: Dispatch_Emphasis_v1_10
+  - first:
+      213: 6692717364035808430
+    second: Dispatch_Emphasis_v1_11
+  - first:
+      213: -2933861245904324828
+    second: Dispatch_Emphasis_v1_12
+  - first:
+      213: -4027082351289016628
+    second: Dispatch_Emphasis_v1_13
+  - first:
+      213: -8833572026699727108
+    second: Dispatch_Emphasis_v1_14
+  - first:
+      213: 5120455533624566397
+    second: Dispatch_Emphasis_v1_15
+  - first:
+      213: -2479187106746358123
+    second: Dispatch_Emphasis_v1_16
+  - first:
+      213: 7608387062092968826
+    second: Dispatch_Emphasis_v1_17
+  - first:
+      213: 3306638715017951321
+    second: Dispatch_Emphasis_v1_18
+  - first:
+      213: -4200551138772888372
+    second: Dispatch_Emphasis_v1_19
+  - first:
+      213: -4061020024905943563
+    second: Dispatch_Emphasis_v1_20
+  - first:
+      213: -1950596843200994771
+    second: Dispatch_Emphasis_v1_21
+  - first:
+      213: 5470821860138407858
+    second: Dispatch_Emphasis_v1_22
+  - first:
+      213: 6561439869630839548
+    second: Dispatch_Emphasis_v1_23
+  - first:
+      213: 2286275816504736907
+    second: Dispatch_Emphasis_v1_24
+  - first:
+      213: -8483525935613678042
+    second: Dispatch_Emphasis_v1_25
+  - first:
+      213: -7507354541650456083
+    second: Dispatch_Emphasis_v1_26
+  - first:
+      213: 5592973893890992272
+    second: Dispatch_Emphasis_v1_27
+  - first:
+      213: 6567927555880418508
+    second: Dispatch_Emphasis_v1_28
+  - first:
+      213: -2729679895560167409
+    second: Dispatch_Emphasis_v1_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 925
+        width: 264
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a448f037d4f4d8f40800000000000000
+      internalID: 5732325094773982282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 936
+        width: 216
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215211edea02ab740800000000000000
+      internalID: 5168479457783129362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 934
+        width: 203
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7171e9920f51a3c60800000000000000
+      internalID: 7798569825979995927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 873
+        width: 210
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f09d9f999ba670800000000000000
+      internalID: 8551097228315390954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 871
+        width: 171
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9160e1e08e5cf30800000000000000
+      internalID: 4595334142132361705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 901
+        width: 124
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7152853af460bcee0800000000000000
+      internalID: -1239890333297793769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_6
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 950
+        width: 11
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29dbcfafc9bfb8d0800000000000000
+      internalID: -2828337739306641110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_7
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 981
+        width: 12
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f5b57fe1948cdb0800000000000000
+      internalID: -4771483407851233398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_8
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 950
+        width: 156
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b65141042be9ae40800000000000000
+      internalID: 5668320145894889144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_9
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 954
+        width: 183
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49552904e69ce62b0800000000000000
+      internalID: -5589308612153289324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_10
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 963
+        width: 205
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7973808e66e59e160800000000000000
+      internalID: 7055274087325120407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 123
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac6179abfe41ec50800000000000000
+      internalID: 6692717364035808430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_12
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 868
+        width: 108
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4277699bdb4d847d0800000000000000
+      internalID: -2933861245904324828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 130
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce5c2a10fdec18c0800000000000000
+      internalID: -4027082351289016628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_14
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 739
+        width: 301
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe3cb24b09d86580800000000000000
+      internalID: -8833572026699727108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_15
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 701
+        width: 253
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7220e1bd238f0740800000000000000
+      internalID: 5120455533624566397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 671
+        width: 182
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596a7a23678289dd0800000000000000
+      internalID: -2479187106746358123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 471
+        width: 62
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73bab5d8bb669960800000000000000
+      internalID: 7608387062092968826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_18
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 328
+        width: 157
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958f239546a83ed20800000000000000
+      internalID: 3306638715017951321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_19
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 362
+        width: 61
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc45498aef4a4b5c0800000000000000
+      internalID: -4200551138772888372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 85
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5bbb5bdcb54a7c0800000000000000
+      internalID: -4061020024905943563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22a10d71861ee4e0800000000000000
+      internalID: -1950596843200994771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_22
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 0
+        width: 66
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7ddf20f734ceb40800000000000000
+      internalID: 5470821860138407858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_23
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 33
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa7e642ccaee0b50800000000000000
+      internalID: 6561439869630839548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_24
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 0
+        width: 13
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cb45dedbb7abf10800000000000000
+      internalID: 2286275816504736907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_25
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 0
+        width: 39
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62eeee4fb16744a80800000000000000
+      internalID: -8483525935613678042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_26
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 0
+        width: 139
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1520ee1d480d790800000000000000
+      internalID: -7507354541650456083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_27
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 0
+        width: 168
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098e767af1c3e9d40800000000000000
+      internalID: 5592973893890992272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_28
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 0
+        width: 203
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc70ce4057f52b50800000000000000
+      internalID: 6567927555880418508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dispatch_Emphasis_v1_29
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 25
+        width: 210
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f006c92f89a3e1ad0800000000000000
+      internalID: -2729679895560167409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dispatch_Emphasis_v1_0: 5732325094773982282
+      Dispatch_Emphasis_v1_1: 5168479457783129362
+      Dispatch_Emphasis_v1_10: 7055274087325120407
+      Dispatch_Emphasis_v1_11: 6692717364035808430
+      Dispatch_Emphasis_v1_12: -2933861245904324828
+      Dispatch_Emphasis_v1_13: -4027082351289016628
+      Dispatch_Emphasis_v1_14: -8833572026699727108
+      Dispatch_Emphasis_v1_15: 5120455533624566397
+      Dispatch_Emphasis_v1_16: -2479187106746358123
+      Dispatch_Emphasis_v1_17: 7608387062092968826
+      Dispatch_Emphasis_v1_18: 3306638715017951321
+      Dispatch_Emphasis_v1_19: -4200551138772888372
+      Dispatch_Emphasis_v1_2: 7798569825979995927
+      Dispatch_Emphasis_v1_20: -4061020024905943563
+      Dispatch_Emphasis_v1_21: -1950596843200994771
+      Dispatch_Emphasis_v1_22: 5470821860138407858
+      Dispatch_Emphasis_v1_23: 6561439869630839548
+      Dispatch_Emphasis_v1_24: 2286275816504736907
+      Dispatch_Emphasis_v1_25: -8483525935613678042
+      Dispatch_Emphasis_v1_26: -7507354541650456083
+      Dispatch_Emphasis_v1_27: 5592973893890992272
+      Dispatch_Emphasis_v1_28: 6567927555880418508
+      Dispatch_Emphasis_v1_29: -2729679895560167409
+      Dispatch_Emphasis_v1_3: 8551097228315390954
+      Dispatch_Emphasis_v1_4: 4595334142132361705
+      Dispatch_Emphasis_v1_5: -1239890333297793769
+      Dispatch_Emphasis_v1_6: -2828337739306641110
+      Dispatch_Emphasis_v1_7: -4771483407851233398
+      Dispatch_Emphasis_v1_8: 5668320145894889144
+      Dispatch_Emphasis_v1_9: -5589308612153289324
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
