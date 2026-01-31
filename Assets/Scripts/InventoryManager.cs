@@ -2,7 +2,9 @@ using UnityEngine;
 
 public class InventoryManager : MonoBehaviour
 {
-    [SerializeField] ItemSlot[] itemSlots;
+    [SerializeField] ItemSlot[] hatItemSlots;
+    [SerializeField] ItemSlot[] shirtItemSlots;
+    [SerializeField] ItemSlot[] weaponItemSlots;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,10 +14,10 @@ public class InventoryManager : MonoBehaviour
 
     public void DeselectAllSlots()
     {
-        for (int i = 0; i < itemSlots.Length; i++)
+        for (int i = 0; i < shirtItemSlots.Length; i++)
         {
-            itemSlots[i].selectedShader.SetActive(false);
-            itemSlots[i].thisItemSelected = false;
+            shirtItemSlots[i].selectedShader.SetActive(false);
+            shirtItemSlots[i].thisItemSelected = false;
         }
     }
 
