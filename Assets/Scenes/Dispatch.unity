@@ -997,7 +997,6 @@ GameObject:
   - component: {fileID: 1305707254}
   - component: {fileID: 1305707256}
   - component: {fileID: 1305707257}
-  - component: {fileID: 1305707258}
   m_Layer: 5
   m_Name: EnemyDialogText
   m_TagString: Untagged
@@ -1140,6 +1139,8 @@ MonoBehaviour:
   typingSpeed: 0.05
   cursorSymbol: _
   cursorBlinkSpeed: 0.5
+  enemyDB: {fileID: 1349233053}
+  dialogText: 
 --- !u!114 &1305707257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1152,20 +1153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac10f7cbcd83f964da315cf0f129eb98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
---- !u!114 &1305707258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1305707252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5d607a550b1fa240856eb071a105132, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CallingNextEnemy
-  enemyDB: {fileID: 1349233053}
-  dialogText: 
 --- !u!1 &1349233052
 GameObject:
   m_ObjectHideFlags: 0
