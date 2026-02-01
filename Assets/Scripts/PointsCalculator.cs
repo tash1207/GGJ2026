@@ -77,7 +77,7 @@ public class PointsCalculator : MonoBehaviour
             case Player.Effectiveness.Neutral: return 2;
             case Player.Effectiveness.Weak: return 1;
             case Player.Effectiveness.Defeated: return 0;
-            default: return 2;
+            default: return 0;
         }
     }
 }
