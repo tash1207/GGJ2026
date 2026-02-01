@@ -679,7 +679,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 305, y: 25}
+  m_SizeDelta: {x: 295, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &223584498
 MonoBehaviour:
@@ -950,7 +950,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (1)
+      value: ItemSlot-WeldingMask
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
@@ -982,7 +982,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Fire-safe but vision is awful
+      value: Rugged and ready, a welding mask fit to take the heat. Low visibility
+        but open ventilation.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -3385,12 +3386,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.VerticalLayoutGroup
   m_Padding:
-    m_Left: 20
-    m_Right: 20
+    m_Left: 15
+    m_Right: 15
     m_Top: 20
     m_Bottom: 20
   m_ChildAlignment: 0
-  m_Spacing: 5
+  m_Spacing: 4
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -3932,7 +3933,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Hit it out of the park
+      value: A spunky wooden baseball bat. The bared wire is quite threatening, most
+        of all to baseballs.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -4874,7 +4876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (3)
+      value: ItemSlot-Glass
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
@@ -4906,7 +4908,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Handle with caution!
+      value: Stylish and practical, this crystalline mask can keep you dry but cracks
+        on high energy impact.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -5276,7 +5279,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: It's not basic
+      value: Fashioned to spread toxic acid to your enemies. Do not consume the acid,
+        it is temperamentally reactive to the body's water.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -5393,7 +5397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (4)
+      value: ItemSlot-TireLauncher
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
@@ -5403,6 +5407,10 @@ PrefabInstance:
       propertyPath: headSlot
       value: 
       objectReference: {fileID: 977023845}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemName
+      value: Tire Launcher
+      objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemType
       value: 2
@@ -5415,6 +5423,11 @@ PrefabInstance:
       propertyPath: itemNameText
       value: 
       objectReference: {fileID: 223584498}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemDescription
+      value: Hefty and solid, this crossbow style tire launcher can shoot insulated
+        rounds faster than a car crash.
+      objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
       value: 
@@ -6551,7 +6564,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 305, y: 100}
+  m_SizeDelta: {x: 295, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1520708030
 MonoBehaviour:
@@ -7086,7 +7099,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Grab your swim trunks and your flippie floppies
+      value: Stay afloat with a weaponized pool noodle! Just don't question why it's
+        always wet.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -7759,6 +7773,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1976635761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976635763}
+  - component: {fileID: 1976635762}
+  - component: {fileID: 1976635764}
+  m_Layer: 0
+  m_Name: GameState
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1976635762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976635761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac09372114c3fc48a3819aede061d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameState
+  selectedEnemyType: 0
+  completedBattles: 0
+--- !u!4 &1976635763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976635761}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976635764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976635761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea32beba690cdb249b59157b68bc0ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyDataDatabase
+  enemies: []
 --- !u!1001 &2003991683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7849,7 +7923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (4)
+      value: ItemSlot-PaperBag
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
@@ -7889,7 +7963,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: I'm sure it provides some protection?
+      value: A flimsy lunch bag with the minimum of visual enhancement. Surely, it
+        contains some level of protection?
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -8949,7 +9024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (2)
+      value: ItemSlot-Rubber
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
@@ -8981,8 +9056,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Insulates electricity, gets gross and sticky if heated. Bubble gum is
-        bad
+      value: A dense, latex rubber mask, typical of your average superhero. Insulating,
+        but not water or sweat resistant.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -9099,7 +9174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot
+      value: ItemSlot-Stone
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
@@ -9115,7 +9190,7 @@ PrefabInstance:
       objectReference: {fileID: 977023845}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemName
-      value: Stone Hat
+      value: Stone Helmet
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemType
@@ -9131,7 +9206,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Solid as a rock
+      value: A rudimentary stone helmet with a mud mask underneath. Heavy and sturdy,
+        good for a slow, refreshing spa day.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -9165,3 +9241,4 @@ SceneRoots:
   - {fileID: 508697049}
   - {fileID: 752617044}
   - {fileID: 1331929407}
+  - {fileID: 1976635763}
