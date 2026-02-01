@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class EquipEnemyUI : MonoBehaviour
 {
     public TMP_Text enemyNameText;        // the "Lava Monster" label
     public TMP_Text enemyDescriptionText; // the description box text
+    public Image enemyImage;
 
     void Start()
     {
@@ -24,5 +26,6 @@ public class EquipEnemyUI : MonoBehaviour
 
         enemyNameText.text = enemy.displayName;
         enemyDescriptionText.text = enemy.description;
+        enemyImage.sprite = enemy.picture;
     }
 }

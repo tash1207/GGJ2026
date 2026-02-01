@@ -3319,20 +3319,24 @@ MonoBehaviour:
   enemies:
   - enemyType: 0
     displayName: Splashy
-    description: Blah Blah Blah
-    dialog: Help Neeeded with water stuff
+    description: Sea horse water monster
+    dialog: Help Needed with a Water monster
+    picture: {fileID: 6550914717739156848, guid: 19efe57a31bd13c41bf92b19fe66bac2, type: 3}
   - enemyType: 1
     displayName: Fiery
     description: Fire eater monster
-    dialog: Help Neeeded with Fire stuff
+    dialog: Help Needed with Fire monster
+    picture: {fileID: -5628687315805548520, guid: 5bdeed786c41b7b46b046d634155e2cc, type: 3}
   - enemyType: 2
-    displayName: '  Bzzzzzzzt'
-    description: Blah Blah Blah
-    dialog: Help Neeeded with Electric stuff
+    displayName: Bzzzzzzzt
+    description: Shocking monster
+    dialog: Help Needed with Electric monster
+    picture: {fileID: 4574733414556881232, guid: 438c741a3dd521f44ab897dc8d4b3665, type: 3}
   - enemyType: 3
     displayName: Something
-    description: Blah Blah Blah
-    dialog: Help Neeeded with Bubbles stuff
+    description: ???
+    dialog: Help Needed with an unknown monster
+    picture: {fileID: -4789058681536175881, guid: 38e884b9f7847c44ca6be755eec038c9, type: 3}
 --- !u!1 &2066665013
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0ff190a203804534fa555f9ef3e695e9
+guid: 438c741a3dd521f44ab897dc8d4b3665
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6058687292607817567
-    second: Equip_Feet_Wheelchair_v5_0
+      213: 4574733414556881232
+    second: Equip_Monster_Lightning_v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,45 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Equip_Feet_Wheelchair_v5_0
+      name: Equip_Monster_Lightning_v1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 666
-        height: 1080
+        width: 438
+        height: 450
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f57ef090ef7c41450800000000000000
-      internalID: 6058687292607817567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Equip_Feet_Wheelchair_v5_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 10
-        width: 517
-        height: 473
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04d34bbc651ebe143896793ebda97ae0
-      internalID: -832231518
+      spriteID: 051d5c47dc7bc7f30800000000000000
+      internalID: 4574733414556881232
       vertices: []
       indices: 
       edges: []
@@ -160,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9669849e130bd7d47b315b03f10485f9
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -168,12 +146,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":333.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Equip_Feet_Wheelchair_v5_0: 6058687292607817567
-      Equip_Feet_Wheelchair_v5_1: -832231518
+      Equip_Monster_Lightning_v1_0: 4574733414556881232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

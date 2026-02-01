@@ -13,6 +13,7 @@ public class EnemyDataDatabase : MonoBehaviour
         public string displayName;
         [TextArea(2, 5)] public string description;
         [TextArea(2, 5)] public string dialog;
+        public Sprite picture;
     }
 
     public List<EnemyData> enemies = new List<EnemyData>();

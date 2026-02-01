@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 20995260}
   - component: {fileID: 20995259}
   m_Layer: 5
-  m_Name: Image
+  m_Name: EnemyImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -30, y: -30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20995259
 MonoBehaviour:
@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -4789058681536175881, guid: 38e884b9f7847c44ca6be755eec038c9, type: 3}
+  m_Sprite: {fileID: -5628687315805548520, guid: 5bdeed786c41b7b46b046d634155e2cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1487,7 +1487,7 @@ PrefabInstance:
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -832231518, guid: 0ff190a203804534fa555f9ef3e695e9, type: 3}
+      objectReference: {fileID: 1207240312, guid: ee6157d66e9541f479beda754c155e22, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -1503,7 +1503,7 @@ PrefabInstance:
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemSprite
       value: 
-      objectReference: {fileID: 6058687292607817567, guid: 0ff190a203804534fa555f9ef3e695e9, type: 3}
+      objectReference: {fileID: 7257356740208152183, guid: ee6157d66e9541f479beda754c155e22, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
@@ -4980,7 +4980,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 175, y: 155}
+  m_SizeDelta: {x: 175, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1262770581
 MonoBehaviour:
@@ -4995,14 +4995,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 593f4abe7e232491fbf2b6f5005ff7af, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -7396,6 +7396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EquipEnemyUI
   enemyNameText: {fileID: 1140801976}
   enemyDescriptionText: {fileID: 1408252779}
+  enemyImage: {fileID: 20995259}
 --- !u!1 &1830362441
 GameObject:
   m_ObjectHideFlags: 0
