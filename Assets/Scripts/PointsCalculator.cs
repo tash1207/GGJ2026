@@ -58,6 +58,8 @@ public class PointsCalculator : MonoBehaviour
         if (string.IsNullOrWhiteSpace(itemName))
         {
             Debug.Log($"[MATCHUP] {slot} (NONE) vs {enemy} → (no item) = 0");
+            GameState.Instance.defeated = true;
+            GameState.Instance.defeatedItem = "Nothing";
             return 0;
         }
         // IMPORTANT: Ensure these types match.

@@ -153,7 +153,14 @@ public class BattleSceneManager : MonoBehaviour
 
         if (GameState.Instance.defeated)
         {
-            defeatedText.text = "Equipment failure!\nBad idea using a *" + GameState.Instance.defeatedItem + "* in this battle.\n\nYou're fired!";
+            if (GameState.Instance.defeatedItem == "Nothing")
+            {
+                defeatedText.text = "Bad idea not fully equipping the hero in this battle.\n\nYou're fired!";
+            }
+            else
+            {
+                defeatedText.text = "Equipment failure!\nBad idea using a *" + GameState.Instance.defeatedItem + "* in this battle.\n\nYou're fired!";
+            }
             losePanel.SetActive(true);
         }
         else
