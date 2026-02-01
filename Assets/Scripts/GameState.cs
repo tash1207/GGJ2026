@@ -7,6 +7,7 @@ public class GameState : MonoBehaviour
     public EnemyType selectedEnemyType;
     public int completedBattles = 0;
     public int lastBattlePoints;
+    public bool defeated;
     void Awake()
     {
         if (Instance != null && Instance != this)

@@ -69,6 +69,7 @@ public class PointsCalculator : MonoBehaviour
 
         // Convert to points
         int pts = PointsFor(eff);
+        if (pts == 0) GameState.Instance.defeated = true;
         Debug.Log($"[POINTS] {slot} +{pts}");
 
         return pts;
