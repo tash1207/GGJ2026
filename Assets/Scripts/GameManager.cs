@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     }
     public void LoadIntroScene()
     {
-
+        EnemyDataDatabase.Instance.ResetDeck();
         SceneManager.LoadScene("Introduction");
     }
     public void LoadDispatch()
