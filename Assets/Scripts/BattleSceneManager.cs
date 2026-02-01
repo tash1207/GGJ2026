@@ -26,16 +26,22 @@ public class BattleSceneManager : MonoBehaviour
     [SerializeField] Sprite maskPaperBag;
     [SerializeField] Sprite maskGlass;
     [SerializeField] Sprite maskRubber;
+    [SerializeField] Sprite maskWelding;
+    [SerializeField] Sprite maskStone;
 
     [Header("Weapons")]
     [SerializeField] Sprite weaponPoolNoodle;
     [SerializeField] Sprite weaponExtinguisher;
+    [SerializeField] Sprite weaponBaseballBat;
     [SerializeField] Sprite weaponAcidSword;
+    [SerializeField] Sprite weaponTireLauncher;
 
     [Header("Shoes")]
     [SerializeField] Sprite shoeWheelchair;
     [SerializeField] Sprite shoeMarble;
     [SerializeField] Sprite shoeRubber;
+    [SerializeField] Sprite shoeRollerblades;
+    [SerializeField] Sprite shoeBoogie;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -85,6 +91,18 @@ public class BattleSceneManager : MonoBehaviour
         if (weapon == "Pool Noodle")
         {
             weaponImage.sprite = weaponPoolNoodle;
+        }
+        else if (weapon == "Fire Extinguisher")
+        {
+            weaponImage.sprite = weaponExtinguisher;
+        }
+        else if (weapon == "Tire Launcher")
+        {
+            weaponImage.sprite = weaponTireLauncher;
+        }
+        else if (weapon == "Baseball Bat")
+        {
+            weaponImage.sprite = weaponBaseballBat;
         }
     }
 
