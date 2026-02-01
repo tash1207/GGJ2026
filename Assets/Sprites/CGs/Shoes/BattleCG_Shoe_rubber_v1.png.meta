@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: ca62d43f415004e6b8dc7dcd415ccd5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3241986240863481609
+    second: BattleCG_Shoe_rubber_v1_0
+  - first:
+      213: -7385841207581770180
+    second: BattleCG_Shoe_rubber_v1_1
+  - first:
+      213: -5651002725157380564
+    second: BattleCG_Shoe_rubber_v1_2
+  - first:
+      213: -5466738805971293078
+    second: BattleCG_Shoe_rubber_v1_3
+  - first:
+      213: 2321905397779530784
+    second: BattleCG_Shoe_rubber_v1_4
+  - first:
+      213: 2778296079183389917
+    second: BattleCG_Shoe_rubber_v1_5
+  - first:
+      213: -3807980112115458523
+    second: BattleCG_Shoe_rubber_v1_6
+  - first:
+      213: 5809400728946958469
+    second: BattleCG_Shoe_rubber_v1_7
+  - first:
+      213: 1630897921877607206
+    second: BattleCG_Shoe_rubber_v1_8
+  - first:
+      213: 1535397222974666171
+    second: BattleCG_Shoe_rubber_v1_9
+  - first:
+      213: -2122975399920133138
+    second: BattleCG_Shoe_rubber_v1_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_0
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 273
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d0a2d0b62203d0800000000000000
+      internalID: -3241986240863481609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 131
+        width: 182
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e75a6bd88308990800000000000000
+      internalID: -7385841207581770180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_2
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 125
+        width: 35
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2eda3636fa9391b0800000000000000
+      internalID: -5651002725157380564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 71
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cec3e150e3224b0800000000000000
+      internalID: -5466738805971293078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_4
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 50
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02406b448a0193020800000000000000
+      internalID: 2321905397779530784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 38
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd42690609d7e8620800000000000000
+      internalID: 2778296079183389917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 44
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e1b997346572bc0800000000000000
+      internalID: -3807980112115458523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 59
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58067c6fe232f9050800000000000000
+      internalID: 5809400728946958469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 11
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6230072e40d12a610800000000000000
+      internalID: 1630897921877607206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_9
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 17
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5b680b3a3de4510800000000000000
+      internalID: 1535397222974666171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BattleCG_Shoe_rubber_v1_10
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 0
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb1edc2f1da982e0800000000000000
+      internalID: -2122975399920133138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BattleCG_Shoe_rubber_v1_0: -3241986240863481609
+      BattleCG_Shoe_rubber_v1_1: -7385841207581770180
+      BattleCG_Shoe_rubber_v1_10: -2122975399920133138
+      BattleCG_Shoe_rubber_v1_2: -5651002725157380564
+      BattleCG_Shoe_rubber_v1_3: -5466738805971293078
+      BattleCG_Shoe_rubber_v1_4: 2321905397779530784
+      BattleCG_Shoe_rubber_v1_5: 2778296079183389917
+      BattleCG_Shoe_rubber_v1_6: -3807980112115458523
+      BattleCG_Shoe_rubber_v1_7: 5809400728946958469
+      BattleCG_Shoe_rubber_v1_8: 1630897921877607206
+      BattleCG_Shoe_rubber_v1_9: 1535397222974666171
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

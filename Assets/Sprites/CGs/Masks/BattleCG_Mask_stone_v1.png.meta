@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: df0f4e2e7cb594316b9c6dd741a9b14f
+guid: 56eee0d7f865f4e6f82945ed74dc3ef4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6737508334263538772
-    second: BattleCg_bat_v5_0
+      213: 260917652648605522
+    second: BattleCG_Mask_stone_v1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BattleCg_bat_v5_0
+      name: BattleCG_Mask_stone_v1_0
       rect:
         serializedVersion: 2
-        x: 204
-        y: 154
-        width: 131
-        height: 206
+        x: 426
+        y: 567
+        width: 170
+        height: 170
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45413071220708d50800000000000000
-      internalID: 6737508334263538772
+      spriteID: 257bfb10937fe9300800000000000000
+      internalID: 260917652648605522
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BattleCg_bat_v5_0: 6737508334263538772
+      BattleCG_Mask_stone_v1_0: 260917652648605522
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

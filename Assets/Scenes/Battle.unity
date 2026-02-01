@@ -268,6 +268,58 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 825918064}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: maskGlass
+      value: 
+      objectReference: {fileID: 21300000, guid: 6004f94c230424861ad2b74430c6eb1a, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: maskStone
+      value: 
+      objectReference: {fileID: 21300000, guid: 56eee0d7f865f4e6f82945ed74dc3ef4, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: maskRubber
+      value: 
+      objectReference: {fileID: 21300000, guid: 908f0850dbc86414687eb1213f3ecb05, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: shoeBoogie
+      value: 
+      objectReference: {fileID: 21300000, guid: f6acac0fd019b42b38e98ae90ac3e312, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: shoeMarble
+      value: 
+      objectReference: {fileID: 21300000, guid: e06ca1cbdb61647c1be5f3a5b5eb67ce, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: shoeRubber
+      value: 
+      objectReference: {fileID: 21300000, guid: ca62d43f415004e6b8dc7dcd415ccd5f, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: maskWelding
+      value: 
+      objectReference: {fileID: 21300000, guid: a8221bcfc98d948ac9c7ee646609123b, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: shoeWheelchair
+      value: 
+      objectReference: {fileID: 21300000, guid: 2d3286229e843455d93af5ac7db4ee37, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: weaponAcidSword
+      value: 
+      objectReference: {fileID: 21300000, guid: c08f04a5fd42f4f1ba9d243bf51cd048, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: shoeRollerblades
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c208ff931c26425280139845d085c14, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: weaponBaseballBat
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a6f80a820e674f078ace7180a07e7e6, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: weaponExtinguisher
+      value: 
+      objectReference: {fileID: 21300000, guid: eebb00aeed54e48178852a03a7d169df, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: weaponTireLauncher
+      value: 
+      objectReference: {fileID: 21300000, guid: fca2014381cb34e008d5fd8797f62fbf, type: 3}
     - target: {fileID: 3236775421663637502, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
       propertyPath: m_Color.a
       value: 0.92156863

@@ -80,14 +80,29 @@ public class BattleSceneManager : MonoBehaviour
         string body = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.body);
         string weapon = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.weapon);
 
+        // Masks
         if (head == "Paper Bag")
         {
             maskImage.sprite = maskPaperBag;
         }
-        if (body == "Grandma's Wheelchair")
+        else if (head == "Glass Mask")
         {
-            shoeImage.sprite = shoeWheelchair;
+            maskImage.sprite = maskGlass;
         }
+        else if (head == "Rubber Mask")
+        {
+            maskImage.sprite = maskRubber;
+        }
+        else if (head == "Stone Helmet")
+        {
+            maskImage.sprite = maskStone;
+        }
+        else if (head == "Welding Mask")
+        {
+            maskImage.sprite = maskWelding;
+        }
+
+        // Weapons
         if (weapon == "Pool Noodle")
         {
             weaponImage.sprite = weaponPoolNoodle;
@@ -103,6 +118,32 @@ public class BattleSceneManager : MonoBehaviour
         else if (weapon == "Baseball Bat")
         {
             weaponImage.sprite = weaponBaseballBat;
+        }
+        else if (weapon == "Acid Sword")
+        {
+            weaponImage.sprite = weaponAcidSword;
+        }
+
+        // Shoes
+        if (body == "Grandma's Wheelchair")
+        {
+            shoeImage.sprite = shoeWheelchair;
+        }
+        else if (body == "Boogie Board")
+        {
+            shoeImage.sprite = shoeBoogie;
+        }
+        else if (body == "Marble Feet")
+        {
+            shoeImage.sprite = shoeMarble;
+        }
+        else if (body == "Rollerblades")
+        {
+            shoeImage.sprite = shoeRollerblades;
+        }
+        else if (body == "Rubber Boots")
+        {
+            shoeImage.sprite = shoeRubber;
         }
     }
 
