@@ -272,6 +272,10 @@ PrefabInstance:
       propertyPath: bgUnknown
       value: 
       objectReference: {fileID: -5396337724280498707, guid: 474289eb076134921bd0a85f51d9aa07, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: defeatedText
+      value: 
+      objectReference: {fileID: 400143696}
     - target: {fileID: 3236775421663637502, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
       propertyPath: m_Color.a
       value: 0.69411767
@@ -664,7 +668,7 @@ GameObject:
   - component: {fileID: 400143697}
   - component: {fileID: 400143696}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: DefeatedText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

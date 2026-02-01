@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class BattleSceneManager : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class BattleSceneManager : MonoBehaviour
     [SerializeField] GameObject winPanel; // Show star rating and advance to next round.
     [SerializeField] GameObject losePanel; // Dead, game over.
     [SerializeField] GameObject gameWinPanel; // Last battle, return to menu.
+    [SerializeField] TMP_Text defeatedText;
 
     [Header("Backgrounds")]
     [SerializeField] Sprite bgLava;
@@ -92,6 +94,7 @@ public class BattleSceneManager : MonoBehaviour
 
         if (GameState.Instance.defeated)
         {
+            defeatedText.text = "Equipment failure!\nBad idea using a *" + GameState.Instance.defeatedItem + "* in this battle.\n\nYou're fired!";
             losePanel.SetActive(true);
         }
         else

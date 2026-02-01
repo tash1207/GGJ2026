@@ -8,6 +8,7 @@ public class GameState : MonoBehaviour
     public int completedBattles = 0;
     public int lastBattlePoints;
     public bool defeated;
+    public string defeatedItem; // Item that caused player defeat
     void Awake()
     {
         if (Instance != null && Instance != this)
