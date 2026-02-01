@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f5cb5bd8e8f246d28137cea6ef6dc3e
+guid: da42d2b4a32204e558934bcd7ffdb4dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1227132050665516155
-    second: BattleCG_Lightning_v4_0
+      213: -5507122807084193578
+    second: BattleCG_Water_v5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BattleCG_Lightning_v4_0
+      name: BattleCG_Water_v5_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1917
-        height: 1080
+        width: 1920
+        height: 1082
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583d59bc6e958fee0800000000000000
-      internalID: -1227132050665516155
+      spriteID: 6d86b452cf4c293b0800000000000000
+      internalID: -5507122807084193578
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BattleCG_Lightning_v4_0: -1227132050665516155
+      BattleCG_Water_v5_0: -5507122807084193578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -269,6 +269,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 825918064}
     - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: bgLava
+      value: 
+      objectReference: {fileID: 3700693862132541677, guid: 227c2f1a8310747a58cc8dac163d04c8, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: bgWater
+      value: 
+      objectReference: {fileID: -5507122807084193578, guid: da42d2b4a32204e558934bcd7ffdb4dc, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
       propertyPath: maskGlass
       value: 
       objectReference: {fileID: 21300000, guid: 6004f94c230424861ad2b74430c6eb1a, type: 3}
@@ -276,6 +284,10 @@ PrefabInstance:
       propertyPath: maskStone
       value: 
       objectReference: {fileID: 21300000, guid: 56eee0d7f865f4e6f82945ed74dc3ef4, type: 3}
+    - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: bgElectric
+      value: 
+      objectReference: {fileID: -2650779459495989545, guid: 52ad3b968da6e4d80b76936642c7d9ea, type: 3}
     - target: {fileID: 2986198810275934850, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
       propertyPath: maskRubber
       value: 
@@ -420,6 +432,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 825918064}
+    - target: {fileID: 7650670560842986698, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5507122807084193578, guid: da42d2b4a32204e558934bcd7ffdb4dc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

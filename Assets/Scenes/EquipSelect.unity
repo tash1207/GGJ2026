@@ -1522,7 +1522,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Got wheels
+      value: Grandma probably doesn't need this wheelchair right now, she won't notice
+        it's gone!
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -5986,7 +5987,7 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Ready for the roller derby
+      value: Quick as the winter wind, cool off with these speedy rollerblades.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -6176,8 +6177,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
-  m_fontSizeBase: 16
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6351,7 +6352,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Solid and sturdy
+      value: Thick and insulated, boots ready for OSHA approval (grip not tested
+        on slick surfaces).
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -7392,7 +7394,7 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Ride the waves
+      value: 'Stay afloat on any wave with this bodyboard! '
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -7778,7 +7780,7 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: Good for putting out fires
+      value: A fire extinguisher, self explanatory.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
