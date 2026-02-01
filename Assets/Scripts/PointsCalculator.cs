@@ -54,6 +54,11 @@ public class PointsCalculator : MonoBehaviour
 
     private int LogEffectAndGetPoints(string slot, string itemName, string enemy)
     {
+        if (string.IsNullOrWhiteSpace(itemName))
+        {
+            Debug.Log($"[MATCHUP] {slot} (NONE) vs {enemy} → (no item) = 0");
+            return 0;
+        }
         // IMPORTANT: Ensure these types match.
         // If EffectivenessTable returns Player.Effectiveness, you're good.
         // If it returns Effectiveness (another enum), adjust PointsFor to match that enum type.
