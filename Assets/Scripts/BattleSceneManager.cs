@@ -18,6 +18,7 @@ public class BattleSceneManager : MonoBehaviour
     [SerializeField] Sprite bgLava;
     [SerializeField] Sprite bgWater;
     [SerializeField] Sprite bgElectric;
+    [SerializeField] Sprite bgUnknown;
 
     [Header("Masks")]
     [SerializeField] Sprite maskPaperBag;
@@ -61,7 +62,7 @@ public class BattleSceneManager : MonoBehaviour
         }
         if (GameState.Instance.selectedEnemyType == EnemyType.Something)
         {
-            bgImage.sprite = bgLava;
+            bgImage.sprite = bgUnknown;
         }
     }
 

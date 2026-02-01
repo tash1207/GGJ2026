@@ -3431,7 +3431,7 @@ MonoBehaviour:
     displayName: Something
     description: ???
     dialog: Who Is this? Why are we fighting? We dont know!!!!!!
-    picture: {fileID: -4789058681536175881, guid: 38e884b9f7847c44ca6be755eec038c9, type: 3}
+    picture: {fileID: -6885363429014032917, guid: ea7a5c60b21fd49ddae509a3a02303f5, type: 3}
 --- !u!1 &2066665013
 GameObject:
   m_ObjectHideFlags: 0
