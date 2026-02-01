@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
   itemName: 
-  itemSprite: {fileID: 0}
+  itemSprite: {fileID: 8632033531916647356, guid: cdaf0cde28cef443e9f717c938949c14, type: 3}
   itemDescription: 
   itemType: 1
   selectedShader: {fileID: 4280389927250652855}
