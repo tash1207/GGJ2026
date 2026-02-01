@@ -43,7 +43,7 @@ public class BattleSceneManager : MonoBehaviour
         yield return new WaitForSeconds(3f);
 
         // if win
-        if (GameState.Instance.completedBattles >= 3)
+        if (GameState.Instance.completedBattles > 3)
         {
             gameWinPanel.SetActive(true);
         }

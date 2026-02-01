@@ -47,6 +47,7 @@ public class PointsCalculator : MonoBehaviour
 
         Debug.Log($"[TOTAL POINTS] {total}");
         GameState.Instance.lastBattlePoints = total;
+        GameState.Instance.completedBattles += 1;
         if (totalText != null)
             totalText.text = total.ToString();
 
