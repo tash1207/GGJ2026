@@ -15,10 +15,14 @@ public class Star : MonoBehaviour
     [SerializeField] AudioClip star4;
     [SerializeField] AudioClip star5;
 
+    AudioSource audioSource;
+
     private float animationDuration = 1f;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         int points = 0;
 
         if (GameState.Instance != null)
@@ -48,6 +52,26 @@ public class Star : MonoBehaviour
     IEnumerator GetStar(Image image, int waitTime)
     {
         yield return new WaitForSeconds(waitTime * speed);
+
+        AudioClip starSound = star1;
+        if (waitTime == 2)
+        {
+            starSound = star2;
+        }
+        else if (waitTime == 3)
+        {
+            starSound = star3;
+        }
+        else if (waitTime == 4)
+        {
+            starSound = star4;
+        }
+        else if (waitTime == 5)
+        {
+            starSound = star5;
+        }
+
+        audioSource.PlayOneShot(starSound);
 
         Color startColor = Color.black;
         Color endColor = Color.white;
