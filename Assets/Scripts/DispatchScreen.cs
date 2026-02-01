@@ -13,6 +13,11 @@ public class DispatchScreen : MonoBehaviour
 
     void Start()
     {
+        Debug.Log($"Dispatcher Start() on '{gameObject.name}' | id={GetInstanceID()} | scene={gameObject.scene.name} | frame={Time.frameCount}");
+
+        // TEMP: count how many Dispatchers exist right now
+        var all = FindObjectsOfType<DispatchScreen>();
+        Debug.Log("Dispatcher instances found: " + all.Length);
         if (!EnemyDataDatabase.Instance.TryDrawNext(out var enemy))
         {
             SceneManager.LoadScene("MainMenu");
