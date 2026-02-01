@@ -399,7 +399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -77.8, y: -21.8}
+  m_AnchoredPosition: {x: -78, y: -4}
   m_SizeDelta: {x: 82.3452, y: -162.2388}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210331703
@@ -439,7 +439,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "We are Here Live at austin!\nBringing you the Latest of Monster attacks.
-    \n\nWe need you! Standup citizen to Equip yourself to battle! "
+    \n\nWe need you! Standup citizen to Equip your hero to battle! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eddfed7e0902aee44b708ade53f50830, type: 2}
   m_sharedMaterial: {fileID: 99518602752763225, guid: eddfed7e0902aee44b708ade53f50830, type: 2}
