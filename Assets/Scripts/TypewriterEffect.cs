@@ -12,13 +12,18 @@ public class TypewriterEffect : MonoBehaviour
     private string fullText;
     private bool isTyping;
     private Coroutine cursorBlinkCoroutine;
-
+    //private CallingNextEnemy ene;
+    public EnemyDataDatabase enemyDB;
+    public string dialogText;
     private void Start()
     {
+        //Debug.Log(ene.dialogText);
+        var enemy = enemyDB.GetRandomEnemy();
         if (textMeshPro == null)
             textMeshPro = GetComponent<TextMeshProUGUI>();
-
-        fullText = textMeshPro.text;
+        fullText = enemy.dialog;
+        // fullText = ene.dialogText;
+        //fullText = textMeshPro.text;
         textMeshPro.text = "";
         StartTypewriterEffect();
     }

@@ -996,8 +996,10 @@ GameObject:
   - component: {fileID: 1305707255}
   - component: {fileID: 1305707254}
   - component: {fileID: 1305707256}
+  - component: {fileID: 1305707257}
+  - component: {fileID: 1305707258}
   m_Layer: 5
-  m_Name: DialogText
+  m_Name: EnemyDialogText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1042,8 +1044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: In today's news! it is raining. and is caused by monsters.. Help we need
-    help
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -1139,6 +1140,93 @@ MonoBehaviour:
   typingSpeed: 0.05
   cursorSymbol: _
   cursorBlinkSpeed: 0.5
+--- !u!114 &1305707257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305707252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac10f7cbcd83f964da315cf0f129eb98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+--- !u!114 &1305707258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305707252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d607a550b1fa240856eb071a105132, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CallingNextEnemy
+  enemyDB: {fileID: 1349233053}
+  dialogText: 
+--- !u!1 &1349233052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1349233054}
+  - component: {fileID: 1349233053}
+  m_Layer: 0
+  m_Name: EnemyDatabase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1349233053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349233052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea32beba690cdb249b59157b68bc0ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  enemies:
+  - enemyType: Splashy
+    displayName: Splashy
+    description: Blah Blah Blah
+    dialog: Help Neeeded with water stuff
+  - enemyType: Fireater
+    displayName: Splashy
+    description: Blah Blah Blah
+    dialog: Help Neeeded with Fire stuff
+  - enemyType: '  Bzzzzzzzt'
+    displayName: '  Bzzzzzzzt'
+    description: Blah Blah Blah
+    dialog: Help Neeeded with Electric stuff
+  - enemyType: Something
+    displayName: Something
+    description: Blah Blah Blah
+    dialog: Help Neeeded with Bubbles stuff
+--- !u!4 &1349233054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349233052}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1047.6819, y: 636.5414, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1435737329
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,3 +1875,4 @@ SceneRoots:
   - {fileID: 92241445}
   - {fileID: 1568208840}
   - {fileID: 1435737331}
+  - {fileID: 1349233054}
