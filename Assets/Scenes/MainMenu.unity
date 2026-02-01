@@ -3410,20 +3410,19 @@ MonoBehaviour:
   enemies:
   - enemyType: 0
     displayName: Splashy
-    description: Sea horse water monster
+    description: Sea horse type water monster causes everything to flood.
     dialog: Watch out! Don't get washed away with this monster making waves in our
       city! Suit up our hero so they make a splash against this watery threat.
     picture: {fileID: 6550914717739156848, guid: 19efe57a31bd13c41bf92b19fe66bac2, type: 3}
   - enemyType: 1
     displayName: Fiery
-    description: Help, we're burning up in here! A monster with a fiery temper is
-      raging on our poor city. Suit up our hero to stomp out the flames of evil!
+    description: This monster can burn you up into a fiery rage
     dialog: Help, we're burning up in here! A monster with a fiery temper is raging
       on our poor city. Suit up our hero to stomp out the flames of evil!
     picture: {fileID: -5628687315805548520, guid: 5bdeed786c41b7b46b046d634155e2cc, type: 3}
   - enemyType: 2
     displayName: Bzzzzzzzt
-    description: Shocking monster
+    description: A monster that will shiock you and leave you for dead
     dialog: 'Shocking update! A sparky threat is electrifying the public! Suit up
       our hero to nullify those lasers and fry this monster before it fries us! '
     picture: {fileID: 4574733414556881232, guid: 438c741a3dd521f44ab897dc8d4b3665, type: 3}
