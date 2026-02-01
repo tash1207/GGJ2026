@@ -9,6 +9,12 @@ public class Star : MonoBehaviour
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private TMP_Text totalText;
 
+    [SerializeField] AudioClip star1;
+    [SerializeField] AudioClip star2;
+    [SerializeField] AudioClip star3;
+    [SerializeField] AudioClip star4;
+    [SerializeField] AudioClip star5;
+
     private float animationDuration = 1f;
 
     void Start()
