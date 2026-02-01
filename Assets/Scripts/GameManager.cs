@@ -21,11 +21,13 @@ public class GameManager : MonoBehaviour
 
     public void LoadMainMenu()
     {
+        EnemyDataDatabase.Instance.ResetDeck();
         SceneManager.LoadScene("MainMenu");
     }
 
     public void LoadDispatch()
     {
+        
         SceneManager.LoadScene("Dispatch");
     }
 

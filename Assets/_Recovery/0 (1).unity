@@ -1019,8 +1019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ac09372114c3fc48a3819aede061d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameState
-  selectedEnemyType: 2
-  completedBattles: 0
+  selectedEnemyType: 0
 --- !u!114 &2003779657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1038,15 +1037,15 @@ MonoBehaviour:
     displayName: Splashy
     description: Blah Blah Blah
     dialog: Help Neeeded with water stuff
-  - enemyType: 1
-    displayName: Fiery
-    description: Fire eater monster
+  - enemyType: 0
+    displayName: Splashy
+    description: Blah Blah Blah
     dialog: Help Neeeded with Fire stuff
-  - enemyType: 2
+  - enemyType: 0
     displayName: '  Bzzzzzzzt'
     description: Blah Blah Blah
     dialog: Help Neeeded with Electric stuff
-  - enemyType: 3
+  - enemyType: 0
     displayName: Something
     description: Blah Blah Blah
     dialog: Help Neeeded with Bubbles stuff

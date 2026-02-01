@@ -1,52 +1,84 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+
 public class EnemyDataDatabase : MonoBehaviour
 {
-    //public string test;
+    public static EnemyDataDatabase Instance { get; private set; }
+
     [Serializable]
     public struct EnemyData
     {
-        public string enemyType;
-
+        public EnemyType enemyType;
         public string displayName;
-
-        [TextArea(2, 5)]
-        public string description;
-
-        [TextArea(2, 5)]
-        public string dialog;
+        [TextArea(2, 5)] public string description;
+        [TextArea(2, 5)] public string dialog;
     }
 
-   [Header("Enemy Data")]
     public List<EnemyData> enemies = new List<EnemyData>();
-    private EnemyData lastEnemy;
 
-    public EnemyData GetRandomEnemy(bool avoidImmediateRepeat = true)
+    private List<int> deck = new List<int>();   // shuffled indices
+    private bool initialized = false;
+
+    void Awake()
     {
-        Debug.LogWarning("Inside enemy Database");
-        if (enemies.Count == 0)
+        if (Instance != null && Instance != this)
         {
-            Debug.LogWarning("EnemyDataDatabase: No enemies defined.");
-            return default;
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+    }
+
+    public void ResetDeck()
+    {
+        deck.Clear();
+        for (int i = 0; i < enemies.Count; i++) deck.Add(i);
+
+        // Fisher-Yates shuffle
+        for (int i = 0; i < deck.Count; i++)
+        {
+            int j = UnityEngine.Random.Range(i, deck.Count);
+            (deck[i], deck[j]) = (deck[j], deck[i]);
         }
 
-        if (!avoidImmediateRepeat || enemies.Count == 1)
-        {
-            lastEnemy = enemies[UnityEngine.Random.Range(0, enemies.Count)];
-            return lastEnemy;
-        }
+        initialized = true;
+    }
 
-        EnemyData chosen;
-        do
-        {
-            chosen = enemies[UnityEngine.Random.Range(0, enemies.Count)];
-        }
-        while (chosen.enemyType == lastEnemy.enemyType);
+    public int RemainingCount => deck.Count;
 
-        lastEnemy = chosen;
-        return chosen;
+    public bool HasMore => deck.Count > 0;
+
+    // Draws ONE enemy. If none left, returns false.
+    public bool TryDrawNext(out EnemyData enemy)
+    {
+        
+        enemy = default;
+
+        if (!initialized)
+            ResetDeck();
+
+        if (deck.Count == 0)
+            return false;
+
+        int idx = deck[0];
+        deck.RemoveAt(0);
+
+        enemy = enemies[idx];
+        Debug.Log($"DREW: {enemy.enemyType} | Remaining: {deck.Count}");
+        return true;
+       
+
     }
 
 
+    public EnemyData GetEnemyByType(EnemyType type)
+    {
+        for (int i = 0; i < enemies.Count; i++)
+            if (enemies[i].enemyType == type)
+                return enemies[i];
+
+        Debug.LogWarning($"EnemyDataDatabase: No enemy found for {type}");
+        return default;
+    }
 }

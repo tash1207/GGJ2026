@@ -1,44 +1,39 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+
 public class TypewriterEffect : MonoBehaviour
 {
-
     public TextMeshProUGUI textMeshPro;
-    public float typingSpeed = 0.05f; // Time between each character
-    public string cursorSymbol = "_"; // The symbol to use as the cursor
-    public float cursorBlinkSpeed = 0.5f; // Blink speed of the cursor
+    public float typingSpeed = 0.05f;
+    public string cursorSymbol = "_";
+    public float cursorBlinkSpeed = 0.5f;
 
-    private string fullText;
+    private string fullText = "";
     private bool isTyping;
     private Coroutine cursorBlinkCoroutine;
-    //private CallingNextEnemy ene;
-    public EnemyDataDatabase enemyDB;
-    public string dialogText;
-    private void Start()
+    private Coroutine typingCoroutine;
+
+    void Awake()
     {
-        //Debug.Log(ene.dialogText);
-        var enemy = enemyDB.GetRandomEnemy();
         if (textMeshPro == null)
             textMeshPro = GetComponent<TextMeshProUGUI>();
-        fullText = enemy.dialog;
-        // fullText = ene.dialogText;
-        //fullText = textMeshPro.text;
-        textMeshPro.text = "";
-        StartTypewriterEffect();
     }
 
-    public void StartTypewriterEffect()
+    // Call this from another script
+    public void SetTextAndPlay(string text)
     {
-        if (isTyping) return;
+        fullText = text ?? "";
+        Restart();
+    }
 
-        if (cursorBlinkCoroutine != null)
-        {
-            StopCoroutine(cursorBlinkCoroutine);
-            cursorBlinkCoroutine = null;
-        }
+    public void Restart()
+    {
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        if (cursorBlinkCoroutine != null) StopCoroutine(cursorBlinkCoroutine);
 
-        StartCoroutine(TypeText());
+        textMeshPro.text = "";
+        typingCoroutine = StartCoroutine(TypeText());
     }
 
     private IEnumerator TypeText()
@@ -46,7 +41,7 @@ public class TypewriterEffect : MonoBehaviour
         isTyping = true;
         textMeshPro.text = "";
 
-        foreach (char letter in fullText.ToCharArray())
+        foreach (char letter in fullText)
         {
             textMeshPro.text += letter + cursorSymbol;
             yield return new WaitForSeconds(typingSpeed);
