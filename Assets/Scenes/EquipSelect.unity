@@ -3933,8 +3933,8 @@ PrefabInstance:
       objectReference: {fileID: 223584498}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescription
-      value: A spunky wooden baseball bat. The bared wire is quite threatening, most
-        of all to baseballs.
+      value: A spunky wooden baseball bat. The barbed wire is quite threatening,
+        most of all to baseballs.
       objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
@@ -4882,6 +4882,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -587978718, guid: f5f9d07834322e84192c2df93803c55b, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -4898,6 +4902,10 @@ PrefabInstance:
       propertyPath: itemType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 7479642271789056252, guid: f5f9d07834322e84192c2df93803c55b, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
@@ -6807,8 +6815,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6831,7 +6839,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 16
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -7420,10 +7428,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 83379333}
-  - {fileID: 269839522}
   - {fileID: 2145944082}
   - {fileID: 1261436598}
   - {fileID: 2003991684}
+  - {fileID: 269839522}
   - {fileID: 328176559}
   - {fileID: 495271624}
   - {fileID: 2118665526}
@@ -8701,7 +8709,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 175, y: 50}
+  m_SizeDelta: {x: 175, y: 55}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &2109951430
 MonoBehaviour:
@@ -8772,15 +8780,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8207547, g: 0.63105196, b: 0.6771123, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 2444220261283854295, guid: acc4fd14b765bd041aed7389bfd176c0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -9030,6 +9038,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1002635326, guid: b7507bb9b098ff34ab0e5509e4f18931, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -9046,6 +9058,10 @@ PrefabInstance:
       propertyPath: itemType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: -1127933441503263673, guid: b7507bb9b098ff34ab0e5509e4f18931, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
@@ -9180,6 +9196,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1092761360, guid: 0589aee231372c24da5a28bd053e2b34, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -9196,6 +9216,10 @@ PrefabInstance:
       propertyPath: itemType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: -2182124076254010665, guid: 0589aee231372c24da5a28bd053e2b34, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
