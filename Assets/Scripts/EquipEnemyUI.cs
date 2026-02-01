@@ -19,7 +19,6 @@ public class EquipEnemyUI : MonoBehaviour
             Debug.LogError("EquipEnemyUI: EnemyDataDatabase.Instance is null (Persistent managers missing?)");
             return;
         }
-
         
         var enemy = EnemyDataDatabase.Instance.GetEnemyByType(GameState.Instance.selectedEnemyType);
 
