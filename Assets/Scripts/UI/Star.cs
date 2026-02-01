@@ -5,24 +5,37 @@ using TMPro;
 
 public class Star : MonoBehaviour
 {
-    [SerializeField] Image[] stars;
-    [SerializeField] float speed = 0.5f;
+    [SerializeField] private Image[] stars;
+    [SerializeField] private float speed = 0.5f;
     [SerializeField] private TMP_Text totalText;
 
-    public int numStars = 3;
+    private float animationDuration = 1f;
 
-    float animationDuration = 1f;
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        totalText.text = GameState.Instance.lastBattlePoints.ToString();
+        int points = 0;
 
-        numStars = Mathf.Clamp(numStars, 0, stars.Length);
+        if (GameState.Instance != null)
+            points = Mathf.Clamp(GameState.Instance.lastBattlePoints, 0, 9);
+
+        if (totalText != null)
+            totalText.text = points.ToString();
+
+        // Convert points (0..9) to stars (0..5)
+        int numStars = Mathf.Clamp(
+            Mathf.RoundToInt((points / 9f) * stars.Length),
+            0,
+            stars.Length
+        );
+
+        // Optional: reset all stars to "unfilled" color first
+        for (int i = 0; i < stars.Length; i++)
+            stars[i].color = Color.black;
+
+        // Animate earned stars
         for (int i = 0; i < numStars; i++)
         {
-            Image starImage = stars[i];
-            StartCoroutine(GetStar(starImage, i + 1));
+            StartCoroutine(GetStar(stars[i], i + 1));
         }
     }
 
@@ -33,16 +46,16 @@ public class Star : MonoBehaviour
         Color startColor = Color.black;
         Color endColor = Color.white;
 
-        //yield return new WaitForSeconds(waitTime);
         float elapsedTime = 0f;
 
         while (elapsedTime < animationDuration)
         {
-            image.color = Color.Lerp(startColor, endColor, Mathf.Clamp(elapsedTime += Time.deltaTime, 0f, 1f));
+            elapsedTime += Time.deltaTime;
+            float t = Mathf.Clamp01(elapsedTime / animationDuration);
+            image.color = Color.Lerp(startColor, endColor, t);
+            yield return null; // IMPORTANT: yield each frame
         }
 
         image.color = endColor;
-
-        yield return new WaitForEndOfFrame();
     }
 }
