@@ -6,7 +6,7 @@ public class EnemyRunController : MonoBehaviour
     {
         if (GameState.Instance == null)
         {
-            Debug.Log("GameState.Instance is null. You probably started from a scene that doesn't create PersistentManagers.");
+            Debug.Log("Start from main menu. it will work");
             return;
         }
         // Pick a new enemy each time Dispatcher scene is entered

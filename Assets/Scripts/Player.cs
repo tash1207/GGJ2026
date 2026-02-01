@@ -13,12 +13,7 @@ public class Player : MonoBehaviour
         Weapon,
         Armor
     }
-    public enum Enenmy
-    {
-        Splashy,
-        Fireater,
-        Bzzzzzzzt
-    }
+
     public enum Effectiveness
     {
         Strong,
