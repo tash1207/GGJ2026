@@ -956,6 +956,10 @@ PrefabInstance:
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -326214474, guid: c3ab16c41426d4613b83770438636e70, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -972,6 +976,10 @@ PrefabInstance:
       propertyPath: itemType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 6894276060598976601, guid: c3ab16c41426d4613b83770438636e70, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
@@ -5407,6 +5415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ItemSlot-TireLauncher
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1782070621, guid: cc5ed6d4e82b048c1a69668d4eaafb03, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -5423,6 +5435,10 @@ PrefabInstance:
       propertyPath: itemType
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: -7641686821871822834, guid: cc5ed6d4e82b048c1a69668d4eaafb03, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
