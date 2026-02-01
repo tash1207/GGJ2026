@@ -10,6 +10,7 @@ public class Timer : MonoBehaviour
 
     public float fillFraction;
     public bool timeIsUp = false;
+    private bool timerRan = false;
 
     float timerValue;
 
@@ -32,10 +33,13 @@ public class Timer : MonoBehaviour
     {
         timerValue = timeToEquip;
         timeIsUp = false;
+        timerRan = true;
     }
 
     void UpdateTimer()
     {
+        if (timerRan) return;
+
         timerValue -= Time.deltaTime;
 
         if (timerValue > 0)

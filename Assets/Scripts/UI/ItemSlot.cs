@@ -25,7 +25,7 @@ public class ItemSlot : MonoBehaviour, IPointerClickHandler
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        inventoryManager = FindObjectOfType<InventoryManager>();
+        inventoryManager = FindFirstObjectByType<InventoryManager>();
         //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<inventoryManager>();
     }
 

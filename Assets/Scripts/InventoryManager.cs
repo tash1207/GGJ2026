@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -10,23 +11,34 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] ItemsHeader shirtHeader;
     [SerializeField] ItemsHeader weaponHeader;
 
+    [SerializeField] GameObject timeUpCanvas;
+
     Timer timer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        timer = FindObjectOfType<Timer>();
+        timer = FindFirstObjectByType<Timer>();
     }
 
     void Update()
     {
-        timer = FindObjectOfType<Timer>();
         if (timer.timeIsUp)
         {
-            // Logic for time expiring (maybe auto battle?)
-            Debug.Log("Time is up");
-            timer.ResetTimer();
+            TimeUp();
         }
+    }
+
+    private void TimeUp()
+    {
+        timer.ResetTimer();
+        timeUpCanvas.SetActive(true);
+        Invoke("GoToBattleScene", 2.5f);
+    }
+
+    private void GoToBattleScene()
+    {
+        SceneManager.LoadScene("Battle");
     }
 
     public void DeselectAllHeaders()

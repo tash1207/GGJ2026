@@ -21,7 +21,7 @@ public class ItemsHeader : MonoBehaviour, IPointerClickHandler
 
     void Start()
     {
-        inventoryManager = FindObjectOfType<InventoryManager>();
+        inventoryManager = FindFirstObjectByType<InventoryManager>();
         //inventoryManager = GameObject.Find("InventoryCanvas").GetComponent<inventoryManager>();
     }
 
