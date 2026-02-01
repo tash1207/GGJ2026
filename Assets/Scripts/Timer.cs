@@ -7,6 +7,7 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] Image timerImage;
     [SerializeField] float timeToEquip = 30f;
+    [SerializeField] AudioClip timerEnd;
 
     public float fillFraction;
     public bool timeIsUp = false;
@@ -14,8 +15,13 @@ public class Timer : MonoBehaviour
 
     float timerValue;
 
+    AudioSource audioSource;
+
+    bool playedTimerEnd = false;
+
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         timerValue = timeToEquip;
     }
 
@@ -41,6 +47,12 @@ public class Timer : MonoBehaviour
         if (timerRan) return;
 
         timerValue -= Time.deltaTime;
+
+        if (timerValue < 2.5 && !playedTimerEnd)
+        {
+            audioSource.PlayOneShot(timerEnd);
+            playedTimerEnd = true;
+        }
 
         if (timerValue > 0)
         {
