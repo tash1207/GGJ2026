@@ -4,18 +4,47 @@ using System.Collections;
 
 public class BattleSceneManager : MonoBehaviour
 {
+    [Header("UI")]
     [SerializeField] Image bgImage;
+    [SerializeField] Image maskImage;
+    [SerializeField] Image weaponImage;
+    [SerializeField] Image shoeImage;
+
     [SerializeField] GameObject winPanel; // Show star rating and advance to next round.
     [SerializeField] GameObject losePanel; // Dead, game over.
     [SerializeField] GameObject gameWinPanel; // Last battle, return to menu.
 
+    [Header("Backgrounds")]
     [SerializeField] Sprite bgLava;
     [SerializeField] Sprite bgWater;
     [SerializeField] Sprite bgElectric;
 
+    [Header("Masks")]
+    [SerializeField] Sprite maskPaperBag;
+    [SerializeField] Sprite maskGlass;
+    [SerializeField] Sprite maskRubber;
+
+    [Header("Weapons")]
+    [SerializeField] Sprite weaponPoolNoodle;
+    [SerializeField] Sprite weaponExtinguisher;
+    [SerializeField] Sprite weaponAcidSword;
+
+    [Header("Shoes")]
+    [SerializeField] Sprite shoeWheelchair;
+    [SerializeField] Sprite shoeMarble;
+    [SerializeField] Sprite shoeRubber;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
+    {
+        SetBackgound();
+        SetWeapons();
+
+        StartCoroutine(ShowResults());
+    }
+
+    void SetBackgound()
     {
         var enemy = EnemyDataDatabase.Instance.GetEnemyByType(GameState.Instance.selectedEnemyType);
         if (GameState.Instance.selectedEnemyType == EnemyType.Fireater)
@@ -34,8 +63,26 @@ public class BattleSceneManager : MonoBehaviour
         {
             bgImage.sprite = bgLava;
         }
+    }
 
-        StartCoroutine(ShowResults());
+    void SetWeapons()
+    {
+        string head = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.head);
+        string body = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.body);
+        string weapon = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.weapon);
+
+        if (head == "Paper Bag")
+        {
+            maskImage.sprite = maskPaperBag;
+        }
+        if (body == "Grandma's Wheelchair")
+        {
+            shoeImage.sprite = shoeWheelchair;
+        }
+        if (weapon == "Pool Noodle")
+        {
+            weaponImage.sprite = weaponPoolNoodle;
+        }
     }
 
     IEnumerator ShowResults()

@@ -26,7 +26,7 @@ public static class EffectivenessTable
                 // Shoes
                 { "Marble Feet", Player.Effectiveness.Neutral },
                 { "Rollerblades", Player.Effectiveness.Neutral },
-                { "Wheelchair", Player.Effectiveness.Weak },
+                { "Grandma's Wheelchair", Player.Effectiveness.Weak },
                 { "Boogie Board", Player.Effectiveness.Strong },
                 { "Rubber Boots", Player.Effectiveness.Defeated },
             }
@@ -50,7 +50,7 @@ public static class EffectivenessTable
                 // Shoes
                 { "Marble Feet", Player.Effectiveness.Defeated },
                 { "Rollerblades", Player.Effectiveness.Strong },
-                { "Wheelchair", Player.Effectiveness.Weak },
+                { "Grandma's Wheelchair", Player.Effectiveness.Weak },
                 { "Boogie Board", Player.Effectiveness.Neutral },
                 { "Rubber Boots", Player.Effectiveness.Neutral },
             }
@@ -74,7 +74,7 @@ public static class EffectivenessTable
                 // Shoes
                 { "Marble Feet", Player.Effectiveness.Neutral },
                 { "Rollerblades", Player.Effectiveness.Neutral },
-                { "Wheelchair", Player.Effectiveness.Defeated },
+                { "Grandma's Wheelchair", Player.Effectiveness.Defeated },
                 { "Boogie Board", Player.Effectiveness.Weak },
                 { "Rubber Boots", Player.Effectiveness.Strong },
             }
@@ -98,7 +98,7 @@ public static class EffectivenessTable
                 // Shoes
                 { "Marble Feet", Player.Effectiveness.Weak },
                 { "Rollerblades", Player.Effectiveness.Weak },
-                { "Wheelchair", Player.Effectiveness.Strong },
+                { "Grandma's Wheelchair", Player.Effectiveness.Strong },
                 { "Boogie Board", Player.Effectiveness.Weak },
                 { "Rubber Boots", Player.Effectiveness.Weak },
             }
