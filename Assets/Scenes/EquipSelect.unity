@@ -7747,6 +7747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929407700}
   - component: {fileID: 1929407699}
+  - component: {fileID: 1929407701}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -7782,6 +7783,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1929407701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929407698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb762580768f3c0498a0f5358301a06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLoadout
 --- !u!1 &1976635761
 GameObject:
   m_ObjectHideFlags: 0
@@ -7807,13 +7820,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976635761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ac09372114c3fc48a3819aede061d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameState
   selectedEnemyType: 0
   completedBattles: 0
+  lastBattlePoints: 0
 --- !u!4 &1976635763
 Transform:
   m_ObjectHideFlags: 0
@@ -7836,7 +7850,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976635761}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea32beba690cdb249b59157b68bc0ca2, type: 3}
   m_Name: 

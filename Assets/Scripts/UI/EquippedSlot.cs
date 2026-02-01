@@ -1,4 +1,4 @@
-using UnityEngine;
+    using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
@@ -19,7 +19,14 @@ public class EquippedSlot : MonoBehaviour
         
         // Update Data
         this.itemName = itemName;
+        //PlayerLoadout.Instance.SetEquipped(itemType, itemName);
+        Debug.Log(itemName);
         this.itemDescription = itemDescription;
+
+        if (PlayerLoadout.Instance != null)
+        {
+            PlayerLoadout.Instance.SetEquipped(itemType, itemName);
+        }
     }
 
 }

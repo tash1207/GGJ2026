@@ -1,11 +1,13 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using TMPro;
 
 public class Star : MonoBehaviour
 {
     [SerializeField] Image[] stars;
     [SerializeField] float speed = 0.5f;
+    [SerializeField] private TMP_Text totalText;
 
     public int numStars = 3;
 
@@ -14,6 +16,8 @@ public class Star : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        totalText.text = GameState.Instance.lastBattlePoints.ToString();
+
         numStars = Mathf.Clamp(numStars, 0, stars.Length);
         for (int i = 0; i < numStars; i++)
         {
