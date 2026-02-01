@@ -6204,8 +6204,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (4)
+      value: ItemSlot-RubberBoots
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1803472792455493614, guid: 2f87110f0e0644ab5baaa8855431afef, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -6215,6 +6219,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 977023845}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemName
+      value: Rubber Boots
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 6225719256329891501, guid: 2f87110f0e0644ab5baaa8855431afef, type: 3}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
       objectReference: {fileID: 552946332}
@@ -6222,6 +6234,10 @@ PrefabInstance:
       propertyPath: itemNameText
       value: 
       objectReference: {fileID: 223584498}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemDescription
+      value: Solid and sturdy
+      objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
       value: 
@@ -7225,12 +7241,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5061629529904199081, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Name
-      value: ItemSlot (3)
+      value: ItemSlot-Boogie
       objectReference: {fileID: 0}
     - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: m_Type
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7246619920021138230, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -663554667, guid: 59ca9004985d54f7bad552a1ec033a1b, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: bodySlot
       value: 
@@ -7241,8 +7261,12 @@ PrefabInstance:
       objectReference: {fileID: 977023845}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemName
-      value: 
+      value: Boogie Board
       objectReference: {fileID: 0}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemSprite
+      value: 
+      objectReference: {fileID: 468374760454069708, guid: 59ca9004985d54f7bad552a1ec033a1b, type: 3}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: weaponSlot
       value: 
@@ -7251,6 +7275,10 @@ PrefabInstance:
       propertyPath: itemNameText
       value: 
       objectReference: {fileID: 223584498}
+    - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
+      propertyPath: itemDescription
+      value: Ride the waves
+      objectReference: {fileID: 0}
     - target: {fileID: 8015886204515869888, guid: 833c0d0cbc9a9d148bbaf2bce380849f, type: 3}
       propertyPath: itemDescriptionText
       value: 
