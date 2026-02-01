@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 2561f40badb7242c18aa4ab15f4471f8
+guid: 873cbdbbb5c4e47a087d56f2380b7d8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5741852857094109015
-    second: Shirts_0
-  - first:
-      213: 6670199133451418763
-    second: Shirts_1
-  - first:
-      213: 8914497156774600812
-    second: Shirts_2
-  - first:
-      213: -158316914962243977
-    second: Shirts_3
+      213: 6825890333946209056
+    second: Equip_Weapon_AcidSword_v5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,89 +113,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shirts_0
+      name: Equip_Weapon_AcidSword_v5_0
       rect:
         serializedVersion: 2
-        x: 167
-        y: 727
-        width: 178
-        height: 130
+        x: 0
+        y: 0
+        width: 666
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a808548f37d050b0800000000000000
-      internalID: -5741852857094109015
+      spriteID: 023e2a6f71f6abe50800000000000000
+      internalID: 6825890333946209056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shirts_1
+      name: Equip_Weapon_AcidSword_v5_1
       rect:
         serializedVersion: 2
-        x: 679
-        y: 727
-        width: 178
-        height: 130
+        x: 0
+        y: 303
+        width: 438
+        height: 456
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b8c7d7a85ce419c50800000000000000
-      internalID: 6670199133451418763
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shirts_2
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 215
-        width: 178
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c60a7ccdee7a6bb70800000000000000
-      internalID: 8914497156774600812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shirts_3
-      rect:
-        serializedVersion: 2
-        x: 679
-        y: 215
-        width: 178
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77e5db9ca9b8dcdf0800000000000000
-      internalID: -158316914962243977
+      spriteID: 68e9113387b9e43ecb854d51e5b4cffb
+      internalID: 956709572
       vertices: []
       indices: 
       edges: []
@@ -213,7 +160,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -221,12 +168,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":333.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Shirts_0: -5741852857094109015
-      Shirts_1: 6670199133451418763
-      Shirts_2: 8914497156774600812
-      Shirts_3: -158316914962243977
+      Equip_Weapon_AcidSword_v5_0: 6825890333946209056
+      Equip_Weapon_AcidSword_v5_1: 956709572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c6b99c2340e874cfea7a2ecfafe858e4
+guid: 7cad86cb6ba1646d196e59c5e50bbbb0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5057960321125129500
-    second: Equip_Weapon_Extinguisher_v4_0
+      213: -5673422861295356392
+    second: Equip_Weapon_Extinguisher_v5_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,23 +113,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Equip_Weapon_Extinguisher_v4_0
+      name: Equip_Weapon_Extinguisher_v5_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 87
-        width: 613
-        height: 807
+        x: 0
+        y: 0
+        width: 666
+        height: 1080
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e2e05bd2e38ec9b0800000000000000
-      internalID: -5057960321125129500
+      spriteID: 816f8eb77f3f341b0800000000000000
+      internalID: -5673422861295356392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Equip_Weapon_Extinguisher_v5_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 78
+        width: 647
+        height: 841
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73f2bc2df8814f20a12dff89ef12f05
+      internalID: 1577303565
       vertices: []
       indices: 
       edges: []
@@ -146,9 +168,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":333.0,"y":1080.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Equip_Weapon_Extinguisher_v4_0: -5057960321125129500
+      Equip_Weapon_Extinguisher_v5_0: -5673422861295356392
+      Equip_Weapon_Extinguisher_v5_1: 1577303565
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
