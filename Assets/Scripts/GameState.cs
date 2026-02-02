@@ -19,4 +19,10 @@ public class GameState : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+    public void ResetBattleResult()
+    {
+        defeated = false;
+        defeatedItem = "Nothing";
+        lastBattlePoints = 0;
+    }
 }

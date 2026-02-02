@@ -24,4 +24,8 @@ public class PlayerLoadout : MonoBehaviour
     {
         return equippedNames.TryGetValue(type, out var name) ? name : "";
     }
+    public void ResetLoad() {
+        equippedNames.Clear(); }
+
+
 }

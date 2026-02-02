@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public void LoadIntroScene()
     {
         EnemyDataDatabase.Instance.ResetDeck();
+        
         SceneManager.LoadScene("Introduction");
     }
     public void LoadDispatch()
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadEquipSelect()
     {
+        PlayerLoadout.Instance.ResetLoad();
         SceneManager.LoadScene("EquipSelect");
     }
 
