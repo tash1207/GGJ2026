@@ -3171,7 +3171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerImage: {fileID: 1326941428}
-  timeToEquip: 10
+  timeToEquip: 60
   timerEnd: {fileID: 8300000, guid: 81735d1fd772543a289a3a6296856666, type: 3}
   fillFraction: 0
   timeIsUp: 0
