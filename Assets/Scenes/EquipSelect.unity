@@ -2871,7 +2871,6 @@ GameObject:
   - component: {fileID: 672564057}
   - component: {fileID: 672564061}
   - component: {fileID: 672564060}
-  - component: {fileID: 672564059}
   - component: {fileID: 672564058}
   m_Layer: 5
   m_Name: DialogPanel
@@ -2922,22 +2921,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &672564059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672564056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 791c71f79221d6e4a976c704a7eb9e7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DispatchScreen
-  anim: {fileID: 672564058}
-  endSceneName: MainMenu
-  enemyNameText: {fileID: 0}
-  typewriter: {fileID: 0}
 --- !u!114 &672564060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3188,7 +3171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerImage: {fileID: 1326941428}
-  timeToEquip: 60
+  timeToEquip: 10
   timerEnd: {fileID: 8300000, guid: 81735d1fd772543a289a3a6296856666, type: 3}
   fillFraction: 0
   timeIsUp: 0
@@ -4279,7 +4262,6 @@ GameObject:
   - component: {fileID: 1006336684}
   - component: {fileID: 1006336683}
   - component: {fileID: 1006336682}
-  - component: {fileID: 1006336681}
   m_Layer: 5
   m_Name: Portrait
   m_TagString: Untagged
@@ -4306,22 +4288,6 @@ RectTransform:
   m_AnchoredPosition: {x: 6.5, y: -103.2}
   m_SizeDelta: {x: 171.166, y: 122.4489}
   m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1006336681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006336679}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 791c71f79221d6e4a976c704a7eb9e7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DispatchScreen
-  anim: {fileID: 1006336682}
-  endSceneName: MainMenu
-  enemyNameText: {fileID: 0}
-  typewriter: {fileID: 0}
 --- !u!95 &1006336682
 Animator:
   serializedVersion: 7

@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     public void LoadMainMenu()
     {
         EnemyDataDatabase.Instance.ResetDeck();
+        GameState.Instance.ResetBattleResult();
+        PlayerLoadout.Instance.ResetLoad();
         SceneManager.LoadScene("MainMenu");
     }
     public void LoadIntroScene()

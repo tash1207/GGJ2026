@@ -21,6 +21,7 @@ public class GameState : MonoBehaviour
     }
     public void ResetBattleResult()
     {
+        completedBattles = 0;
         defeated = false;
         defeatedItem = "Nothing";
         lastBattlePoints = 0;
