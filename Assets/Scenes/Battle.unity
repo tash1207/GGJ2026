@@ -287,14 +287,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 825918064}
-    - target: {fileID: 5974581876764150396, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 6173240404019663109, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6810748641815263616, guid: 5590ce0dfd0a74d4dad3aefb0be241a8, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

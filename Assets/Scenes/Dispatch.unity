@@ -1151,7 +1151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
   textMeshPro: {fileID: 0}
-  typingSpeed: 0.05
+  typingSpeed: 0.04
   cursorSymbol: _
   cursorBlinkSpeed: 0.5
 --- !u!1 &1460633871
