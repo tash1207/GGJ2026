@@ -159,7 +159,7 @@ public class BattleSceneManager : MonoBehaviour
             }
             else
             {
-                defeatedText.text = "Equipment failure!\nBad idea using *" + GameState.Instance.defeatedItem + "* in this battle.\n\nYou're fired!";
+                defeatedText.text = "Bad idea using <color=#CC0000>" + GameState.Instance.defeatedItem + "</color> in this battle. You're fired!";
             }
             GameState.Instance.ResetBattleResult();
             PlayerLoadout.Instance.ResetLoad();
