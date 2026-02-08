@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] ItemsHeader shirtHeader;
     [SerializeField] ItemsHeader weaponHeader;
 
+    [SerializeField] GameObject unequippedCanvas;
     [SerializeField] GameObject timeUpCanvas;
 
     Timer timer;
@@ -34,6 +36,31 @@ public class InventoryManager : MonoBehaviour
         timer.ResetTimer();
         timeUpCanvas.SetActive(true);
         Invoke("GoToBattleScene", 2.5f);
+    }
+
+    public void CheckForEquipment()
+    {
+        string head = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.head);
+        string body = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.body);
+        string weapon = PlayerLoadout.Instance.GetEquipped(InventoryManager.ItemType.weapon);
+
+        if (head == "" || body == "" || weapon == "")
+        {
+            StartCoroutine(UnequippedDialog());
+        }
+        else
+        {
+            GoToBattleScene();
+        }
+    }
+
+    IEnumerator UnequippedDialog()
+    {
+        Time.timeScale = 0;
+        unequippedCanvas.SetActive(true);
+        yield return new WaitForSecondsRealtime(2f);
+        unequippedCanvas.SetActive(false);
+        Time.timeScale = 1;
     }
 
     private void GoToBattleScene()

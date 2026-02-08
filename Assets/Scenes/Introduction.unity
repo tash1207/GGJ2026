@@ -438,8 +438,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "We are Here Live at austin!\nBringing you the Latest of Monster attacks.
-    \n\nWe need you! Standup citizen to Equip your hero to battle! "
+  m_text: "We are Here Live in Austin!\nBringing you the Latest of Monster attacks.
+    \n\nWe need you! Standup citizen to Equip your hero for battle! "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eddfed7e0902aee44b708ade53f50830, type: 2}
   m_sharedMaterial: {fileID: 99518602752763225, guid: eddfed7e0902aee44b708ade53f50830, type: 2}
@@ -941,8 +941,8 @@ Camera:
   m_GameObject: {fileID: 747139977}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.47058824, g: 0.37254903, b: 0.53333336, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
